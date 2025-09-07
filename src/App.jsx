@@ -25,8 +25,8 @@ console.log("hii")
      }
      <Ex name="hello"/>
  */}
- <button onClick={(getData)} className='bg-blue-400 rounded w-40 h-20 text-3xl active:scale-90'> Get data</button>
- <div className='bg-red-600'>
+ {/* <button onClick={(getData)} className='bg-blue-400 rounded w-40 h-20 text-3xl active:scale-90'> Get data</button> */}
+ {/* <div className='bg-red-600'>
  {
   data.map((elem,idx)=>{
     return <div key={idx} className='bg-black mb-2 text-white flex items-center justify-between w-full'>
@@ -34,7 +34,7 @@ console.log("hii")
 <h1> {elem.author}</h1>
     </div>
   })
- } </div>
+ } </div> */}
     </div>
   )
 }
